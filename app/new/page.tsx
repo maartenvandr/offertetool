@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "../../lib/supabaseClient";
 
 type MaterialRow = { item: string; qty: number; unit_price: number };
 type Item = { id: number; name: string; unit_price: number };
